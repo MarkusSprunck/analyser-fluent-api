@@ -14,7 +14,7 @@ public class MyAnalyser {
 
     private String name;
 
-    // fluent API change parameter
+    // fluent API change parameter for noise width
     public MyAnalyser noiseWidth(int noiseWidth) {
         this.noiseWidth = noiseWidth;
         return this;
